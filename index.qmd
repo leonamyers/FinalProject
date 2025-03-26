@@ -1,10 +1,15 @@
 ---
 title: FinalProject
 authors:
-  - name: Norah Jones
-    affiliation: The University
+  - name: Leona Myers
+    affiliation: Colorado State University
     roles: writing
     corresponding: true
+  - name: Andie Hall
+  affiliation:
+  Colorado State University
+  roles:
+  writing
 bibliography: references.bib
 ---
 
