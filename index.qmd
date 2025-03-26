@@ -6,17 +6,74 @@ authors:
     roles: writing
     corresponding: true
   - name: Andie Hall
-  affiliation:
-  Colorado State University
-  roles:
-  writing
+    affiliation: Colorado State University
+    roles: writing
 bibliography: references.bib
+csl: apa.csl
 ---
 
-## Section
+## Andie's Proposals
 
-This is a simple placeholder for the manuscript's main document [@knuth84].
+**Proposal 1 - Wood Thrush Temperature Impact**
 
-```{r}
-1 + 1
-```
+**Title**: Climate abnormalities and their impact on the Wood Thrush
+
+**Justification**: The Wood Thrush is a native bird to the eastern coast of the US. In recent years, the North American Breeding Bird Survey has identified that this species has declined about 50% between 1966 and 2019 (BBS 2019). This is a high level of concern as the population is only 12 million (Partners in Flight) spread throughout the US. With proper data analysis, we can see if the temperatures of the eastern coast have any correlation with the decline in population. If there is, there can be an argument for policy formation to help protect not only this species but other similar species. This is also a great way to help determine a strategy to use on a wide variety of birds to easily identify the factors that impact them the most.  
+
+**Research Objective**: Identify if the average daily temperatures of the New England Coast have had impacts on the population size and breeding times of the Wood Thrush.
+
+**Proposed Methods**: Using the National Weather Service Database to create an average temperature across states with high Wood Thrush populations and multiple bird survey/population size databases such as Cornell Lab’s Ebird Migration database and North American Breeding Bird Survey, we can create a linear model to identify if higher temperatures impact population sizes. 
+
+**Expected Outcomes**: Since this bird has seen a large decline in the past 60 years, we can determine that there has been something negatively impacting the population. Since 1966, there has been a large technological revolution that has increased the need for fossil fuel energy, which has in turn lead to higher average temperatures (NOAA 2024), this could be a key factor to why the population suddenly started declining at about 1.3% annually (BBS). Since temperature is one of the main contributing factors to migration timing for avian species, abnormalities can impact the periods by either making them earlier or later in the year.  
+
+**Proposal 2 - Wood Thrush CO2 Pollution Impact**
+
+**Title**: Carbon Dioxide Pollution and its Impact on the Wood Thrush
+
+**Justification**: Carbon pollution is one of the main sustainability research topics as of recent years. This type of pollution can cause serious health impacts on not just humans, but wildlife surrounding areas of human populations (National Park Service). With habitat fragmentation, sea level rise, climate impacts, and health issues becoming the supporting factors to implement policy to help stablize the impact. The Wood Thrush since 1966 has had a large decrease in it’s population size, and thus has received a 14/20 on the conservation concern score (meaning population is declining) from the NABCI. Through looking at air quality conditions and relating them to population size, this model can help predict the impact of rising emissions on avian species and create an incentive for businesses to reduce their emissions and for policies to be implemented to achieve this. It also allows for a base model structure to see the impact on other avian species to see if the trend is similar in other species. 
+
+**Research Objective**: Identify the correlation between rising emissions and declining population trends to see if there is a statistically significant relationship between the two variables.
+
+**Proposed Methods**: Using bird population data from the North American Breeding Bird Survey and Cornell Lab’s Ebird migration data, we can create a population trend over the years and compare them to data from the Clean Air Market database to measure the amount of correlation between variables. A linear model can help identify and measure visually and give us a value to determine if the correlation is statistically significant or not.
+
+**Expected Outcomes**: Since carbon pollution is a main contributor to a large amount of factors that face environment degration, we can hypothesize that there will be a negative correlation between the two variables. Meaning that as carbon dioxide emissions increase, the population of the Wood Thrush will decrease. 
+
+## Leona's Proposals
+
+**Proposal 1 -  Yellow-browed Warbler Artificial Light at Night (ALAN) Impact**
+
+**Title**: Artificial Light at Night (ALAN) Impact on the nocturnally migrating Yellow-browed Warbler
+
+**Justification**: The Yellow-browed Warbler is a small migratory songbird that primarily breeds in Siberia and migrates across Asia and Europe. However, in recent years, there have been increasing reports of vagrancy in the Eastern United States. The North American Bird Survey found that this species has declined by 20% between 1966 and 2019 (Sauer et al., 2020). Artificial Light at Night (ALAN) has been shown to disrupt the navigation and stopover behavior of nocturnally migrating birds, leading to increased mortality and energy depletion (Cabera-Cruz et al., 2018). By studying how ALAN affects this species, we can better understand whether light pollution is contributing to changes in migration routes, stopover duration, or mortality rates. This research is crucial for conservation efforts aimed at mitigating light pollution's impacts on long-distance migrants.
+
+**Research Objective**: To assess the impact of ALAN on the migration behavior of the Yellow-browed Warbler, focusing on changes in stopover duration, migratory timing, and potential disorientation in highly light-polluted urban areas.
+
+**Proposed Methods:**
+
+-   Utilize eBird migration records to identify locations where Yellow-browed Warblers are most frequently reported in the Eastern US.
+
+-   Compare migration data with ALAN intensity maps using satellite-derived light pollution datasets (e.g., VIIRS Nighttime Lights).
+
+-   Conduct a statistical analysis to determine if there is a correlation between ALAN intensity and variations in stopover duration, migratory timing, or changes in historical routes.
+
+**Expected Outcomes:** Since artificial light at night has rapidly increased since 1966 and previous research has indicated that ALAN does have negative effects on nocturnally migrating birds’ circadium rhythm causing disorientation we would expect delayed migration and loner stopover rates in highly lit areas.
+
+**Proposal 2 - Yellow-browed Warbler Deforestation Impact**
+
+**Title**: Impact of Deforestation in the Eastern US on Acadian Flycatchers 
+
+**Justification**: The Acadian Flycatcher (Empidonax virescens) is a neotropical migratory bird that breeds in the deciduous forests of the Eastern United States. Habitat loss due to deforestation has been a major driver of its population decline, with forest fragmentation leading to increased nest predation, reduced reproductive success, and declining population densities (Newmark et al., 2011). Since the 1960s, forest cover in the Eastern U.S. has been increasingly converted to urban and agricultural land, reducing available breeding habitats for forest-dependent birds (Hughes et al., 2020). As an at-risk species that relies on mature forests for breeding, understanding how habitat loss is affecting its distribution and survival is crucial for targeted conservation efforts. This research will analyze whether deforestation is altering breeding success and population densities in the Eastern US, helping to guide habitat preservation initiatives.
+
+**Research Objective:** To assess how deforestation and habitat fragmentation in the Eastern US influence Acadian Flycatcher breeding distribution, population trends, and habitat suitability.
+
+**Proposed Methods:**
+
+-   Use land cover change datasets (NLCD - National Land Cover Database) to quantify deforestation rates in areas where Yellow-browed Warblers have been reported.
+
+-   Overlay eBird observations to assess whether sightings correlate with forested or deforested landscapes.
+
+-   Apply remote sensing and GIS techniques to measure habitat fragmentation in key stopover sites.
+
+-   Conduct statistical analyses to determine if there is a significant relationship between deforestation levels and changes in the species’ occurrence or behavior.
+
+Expected Outcomes: Research indicates that Acadian Flycatchers are already at risk due to habitat loss. Since they breed in the Eastern US deciduous forests, we would expect a positive correlation between deforestation and population decline between 1966-2019.  
